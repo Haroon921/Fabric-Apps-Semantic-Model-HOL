@@ -1,0 +1,241 @@
+Date,OpportunityID,RegionID,Region,PartnerID,Partner,PartnerType,SolutionID,Solution,Category,Stage,ACR_USD,WorkloadUnits,Health
+2026-09-03,OPP-0001,R03,UAE,P03,Northwind Cloud,SI,S02,Synapse to Fabric,Analytics,Qualified,80000,9,Green
+2026-05-10,OPP-0002,R03,UAE,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Solutioning,76000,8,Green
+2026-02-10,OPP-0003,R05,Norway,P04,Adventure Works Digital,GSI,S04,OneLake Governance,Governance,Commit,183000,8,Green
+2026-01-07,OPP-0004,R04,Saudi Arabia,P03,Northwind Cloud,SI,S02,Synapse to Fabric,Analytics,Pilot,101000,10,Green
+2026-09-26,OPP-0005,R02,Germany,P01,Contoso Consulting,GSI,S04,OneLake Governance,Governance,Commit,206000,1,Red
+2026-02-13,OPP-0006,R02,Germany,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Solutioning,28000,3,Green
+2026-08-20,OPP-0007,R02,Germany,P03,Northwind Cloud,SI,S04,OneLake Governance,Governance,Qualified,127000,8,Green
+2026-01-07,OPP-0008,R03,UAE,P02,Fabrikam Data,SI,S03,AI-Ready Data Estate,AI,Qualified,106000,9,Green
+2026-09-22,OPP-0009,R02,Germany,P02,Fabrikam Data,SI,S02,Synapse to Fabric,Analytics,Commit,140000,9,Green
+2026-06-21,OPP-0010,R03,UAE,P01,Contoso Consulting,GSI,S04,OneLake Governance,Governance,Solutioning,44000,5,Green
+2026-02-12,OPP-0011,R03,UAE,P04,Adventure Works Digital,GSI,S04,OneLake Governance,Governance,Solutioning,45000,10,Green
+2026-05-26,OPP-0012,R02,Germany,P04,Adventure Works Digital,GSI,S01,SQL Modernization,Database,Qualified,29000,6,Green
+2026-06-01,OPP-0013,R05,Norway,P01,Contoso Consulting,GSI,S01,SQL Modernization,Database,Pilot,120000,12,Amber
+2026-01-02,OPP-0014,R02,Germany,P03,Northwind Cloud,SI,S01,SQL Modernization,Database,Pilot,73000,7,Green
+2026-06-18,OPP-0015,R04,Saudi Arabia,P01,Contoso Consulting,GSI,S03,AI-Ready Data Estate,AI,Won,25000,3,Green
+2026-02-10,OPP-0016,R03,UAE,P02,Fabrikam Data,SI,S02,Synapse to Fabric,Analytics,Won,169000,8,Green
+2026-04-30,OPP-0017,R05,Norway,P03,Northwind Cloud,SI,S03,AI-Ready Data Estate,AI,Qualified,140000,3,Green
+2026-10-01,OPP-0018,R04,Saudi Arabia,P02,Fabrikam Data,SI,S04,OneLake Governance,Governance,Won,186000,4,Red
+2026-03-18,OPP-0019,R03,UAE,P05,Tailspin Analytics,Boutique,S01,SQL Modernization,Database,Won,46000,8,Red
+2026-02-10,OPP-0020,R02,Germany,P04,Adventure Works Digital,GSI,S03,AI-Ready Data Estate,AI,Solutioning,47000,2,Amber
+2026-02-14,OPP-0021,R03,UAE,P02,Fabrikam Data,SI,S02,Synapse to Fabric,Analytics,Commit,203000,12,Green
+2026-04-06,OPP-0022,R04,Saudi Arabia,P01,Contoso Consulting,GSI,S04,OneLake Governance,Governance,Pilot,71000,5,Red
+2026-04-14,OPP-0023,R01,UK,P05,Tailspin Analytics,Boutique,S04,OneLake Governance,Governance,Solutioning,177000,9,Green
+2026-07-20,OPP-0024,R02,Germany,P02,Fabrikam Data,SI,S01,SQL Modernization,Database,Solutioning,148000,4,Green
+2026-07-14,OPP-0025,R04,Saudi Arabia,P03,Northwind Cloud,SI,S01,SQL Modernization,Database,Solutioning,33000,10,Green
+2026-03-08,OPP-0026,R01,UK,P05,Tailspin Analytics,Boutique,S04,OneLake Governance,Governance,Pilot,129000,2,Green
+2026-06-07,OPP-0027,R05,Norway,P04,Adventure Works Digital,GSI,S03,AI-Ready Data Estate,AI,Commit,153000,7,Green
+2026-02-02,OPP-0028,R04,Saudi Arabia,P03,Northwind Cloud,SI,S03,AI-Ready Data Estate,AI,Commit,92000,8,Green
+2026-04-24,OPP-0029,R05,Norway,P05,Tailspin Analytics,Boutique,S02,Synapse to Fabric,Analytics,Solutioning,104000,2,Green
+2026-06-01,OPP-0030,R02,Germany,P04,Adventure Works Digital,GSI,S04,OneLake Governance,Governance,Solutioning,82000,1,Green
+2026-02-26,OPP-0031,R05,Norway,P04,Adventure Works Digital,GSI,S01,SQL Modernization,Database,Commit,129000,4,Green
+2026-02-20,OPP-0032,R01,UK,P02,Fabrikam Data,SI,S02,Synapse to Fabric,Analytics,Solutioning,217000,12,Red
+2026-08-10,OPP-0033,R05,Norway,P03,Northwind Cloud,SI,S03,AI-Ready Data Estate,AI,Pilot,59000,11,Green
+2026-08-22,OPP-0034,R01,UK,P01,Contoso Consulting,GSI,S02,Synapse to Fabric,Analytics,Won,153000,6,Green
+2026-02-26,OPP-0035,R01,UK,P02,Fabrikam Data,SI,S01,SQL Modernization,Database,Won,80000,8,Green
+2026-01-02,OPP-0036,R04,Saudi Arabia,P01,Contoso Consulting,GSI,S01,SQL Modernization,Database,Solutioning,187000,2,Green
+2026-04-02,OPP-0037,R05,Norway,P02,Fabrikam Data,SI,S02,Synapse to Fabric,Analytics,Qualified,88000,8,Green
+2026-07-10,OPP-0038,R05,Norway,P01,Contoso Consulting,GSI,S04,OneLake Governance,Governance,Pilot,99000,8,Green
+2026-05-24,OPP-0039,R02,Germany,P05,Tailspin Analytics,Boutique,S03,AI-Ready Data Estate,AI,Solutioning,213000,7,Red
+2026-08-24,OPP-0040,R05,Norway,P02,Fabrikam Data,SI,S01,SQL Modernization,Database,Solutioning,126000,7,Red
+2026-07-17,OPP-0041,R03,UAE,P04,Adventure Works Digital,GSI,S04,OneLake Governance,Governance,Won,32000,2,Green
+2026-08-09,OPP-0042,R02,Germany,P02,Fabrikam Data,SI,S03,AI-Ready Data Estate,AI,Pilot,145000,12,Amber
+2026-06-19,OPP-0043,R02,Germany,P03,Northwind Cloud,SI,S03,AI-Ready Data Estate,AI,Qualified,33000,8,Green
+2026-08-03,OPP-0044,R01,UK,P05,Tailspin Analytics,Boutique,S01,SQL Modernization,Database,Won,17000,11,Green
+2026-05-11,OPP-0045,R05,Norway,P04,Adventure Works Digital,GSI,S01,SQL Modernization,Database,Solutioning,219000,8,Green
+2026-09-11,OPP-0046,R05,Norway,P04,Adventure Works Digital,GSI,S04,OneLake Governance,Governance,Pilot,97000,6,Red
+2026-05-06,OPP-0047,R01,UK,P03,Northwind Cloud,SI,S01,SQL Modernization,Database,Commit,184000,8,Green
+2026-08-05,OPP-0048,R02,Germany,P05,Tailspin Analytics,Boutique,S04,OneLake Governance,Governance,Qualified,199000,11,Red
+2026-08-04,OPP-0049,R05,Norway,P01,Contoso Consulting,GSI,S03,AI-Ready Data Estate,AI,Qualified,47000,3,Red
+2026-09-07,OPP-0050,R02,Germany,P01,Contoso Consulting,GSI,S04,OneLake Governance,Governance,Won,127000,8,Green
+2026-02-11,OPP-0051,R05,Norway,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Solutioning,138000,12,Green
+2026-05-01,OPP-0052,R03,UAE,P04,Adventure Works Digital,GSI,S04,OneLake Governance,Governance,Qualified,112000,8,Red
+2026-04-16,OPP-0053,R01,UK,P03,Northwind Cloud,SI,S03,AI-Ready Data Estate,AI,Commit,215000,10,Green
+2026-01-27,OPP-0054,R01,UK,P01,Contoso Consulting,GSI,S03,AI-Ready Data Estate,AI,Pilot,158000,9,Amber
+2026-07-25,OPP-0055,R02,Germany,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Commit,32000,12,Amber
+2026-05-13,OPP-0056,R04,Saudi Arabia,P04,Adventure Works Digital,GSI,S01,SQL Modernization,Database,Won,23000,9,Amber
+2026-01-04,OPP-0057,R04,Saudi Arabia,P01,Contoso Consulting,GSI,S03,AI-Ready Data Estate,AI,Qualified,86000,10,Amber
+2026-10-05,OPP-0058,R05,Norway,P05,Tailspin Analytics,Boutique,S04,OneLake Governance,Governance,Commit,189000,7,Amber
+2026-10-04,OPP-0059,R01,UK,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Pilot,19000,7,Green
+2026-01-23,OPP-0060,R05,Norway,P04,Adventure Works Digital,GSI,S03,AI-Ready Data Estate,AI,Commit,219000,9,Green
+2026-05-26,OPP-0061,R05,Norway,P04,Adventure Works Digital,GSI,S03,AI-Ready Data Estate,AI,Solutioning,121000,12,Green
+2026-06-30,OPP-0062,R02,Germany,P02,Fabrikam Data,SI,S04,OneLake Governance,Governance,Qualified,138000,1,Green
+2026-01-30,OPP-0063,R03,UAE,P04,Adventure Works Digital,GSI,S01,SQL Modernization,Database,Qualified,51000,2,Amber
+2026-08-05,OPP-0064,R01,UK,P01,Contoso Consulting,GSI,S02,Synapse to Fabric,Analytics,Solutioning,113000,9,Amber
+2026-08-16,OPP-0065,R05,Norway,P01,Contoso Consulting,GSI,S04,OneLake Governance,Governance,Won,90000,11,Red
+2026-07-19,OPP-0066,R01,UK,P04,Adventure Works Digital,GSI,S03,AI-Ready Data Estate,AI,Commit,65000,11,Green
+2026-06-14,OPP-0067,R01,UK,P05,Tailspin Analytics,Boutique,S04,OneLake Governance,Governance,Commit,100000,2,Green
+2026-08-04,OPP-0068,R04,Saudi Arabia,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Won,49000,2,Red
+2026-04-26,OPP-0069,R01,UK,P02,Fabrikam Data,SI,S02,Synapse to Fabric,Analytics,Commit,148000,11,Red
+2026-09-28,OPP-0070,R02,Germany,P02,Fabrikam Data,SI,S03,AI-Ready Data Estate,AI,Qualified,31000,5,Green
+2026-02-09,OPP-0071,R01,UK,P02,Fabrikam Data,SI,S02,Synapse to Fabric,Analytics,Pilot,91000,10,Green
+2026-06-24,OPP-0072,R01,UK,P02,Fabrikam Data,SI,S01,SQL Modernization,Database,Qualified,153000,3,Green
+2026-01-20,OPP-0073,R03,UAE,P01,Contoso Consulting,GSI,S01,SQL Modernization,Database,Commit,97000,11,Green
+2026-07-15,OPP-0074,R04,Saudi Arabia,P02,Fabrikam Data,SI,S04,OneLake Governance,Governance,Commit,122000,7,Green
+2026-07-26,OPP-0075,R04,Saudi Arabia,P02,Fabrikam Data,SI,S04,OneLake Governance,Governance,Pilot,199000,12,Green
+2026-01-05,OPP-0076,R04,Saudi Arabia,P03,Northwind Cloud,SI,S02,Synapse to Fabric,Analytics,Pilot,48000,3,Red
+2026-03-01,OPP-0077,R04,Saudi Arabia,P02,Fabrikam Data,SI,S01,SQL Modernization,Database,Won,210000,11,Green
+2026-01-06,OPP-0078,R04,Saudi Arabia,P03,Northwind Cloud,SI,S01,SQL Modernization,Database,Pilot,130000,4,Red
+2026-09-15,OPP-0079,R04,Saudi Arabia,P02,Fabrikam Data,SI,S03,AI-Ready Data Estate,AI,Solutioning,129000,4,Red
+2026-05-05,OPP-0080,R05,Norway,P05,Tailspin Analytics,Boutique,S02,Synapse to Fabric,Analytics,Commit,73000,8,Green
+2026-09-18,OPP-0081,R02,Germany,P05,Tailspin Analytics,Boutique,S01,SQL Modernization,Database,Won,171000,4,Amber
+2026-03-23,OPP-0082,R03,UAE,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Qualified,22000,9,Green
+2026-02-08,OPP-0083,R02,Germany,P04,Adventure Works Digital,GSI,S04,OneLake Governance,Governance,Commit,90000,9,Green
+2026-06-06,OPP-0084,R03,UAE,P03,Northwind Cloud,SI,S01,SQL Modernization,Database,Solutioning,168000,10,Red
+2026-04-15,OPP-0085,R05,Norway,P04,Adventure Works Digital,GSI,S04,OneLake Governance,Governance,Won,182000,3,Amber
+2026-05-02,OPP-0086,R04,Saudi Arabia,P01,Contoso Consulting,GSI,S01,SQL Modernization,Database,Qualified,218000,7,Red
+2026-09-19,OPP-0087,R04,Saudi Arabia,P01,Contoso Consulting,GSI,S01,SQL Modernization,Database,Won,164000,9,Green
+2026-08-12,OPP-0088,R05,Norway,P02,Fabrikam Data,SI,S03,AI-Ready Data Estate,AI,Won,174000,4,Green
+2026-03-26,OPP-0089,R02,Germany,P01,Contoso Consulting,GSI,S02,Synapse to Fabric,Analytics,Pilot,196000,1,Green
+2026-09-04,OPP-0090,R05,Norway,P01,Contoso Consulting,GSI,S04,OneLake Governance,Governance,Pilot,155000,5,Red
+2026-05-04,OPP-0091,R02,Germany,P02,Fabrikam Data,SI,S01,SQL Modernization,Database,Won,148000,11,Amber
+2026-07-28,OPP-0092,R05,Norway,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Pilot,156000,4,Red
+2026-04-15,OPP-0093,R05,Norway,P05,Tailspin Analytics,Boutique,S02,Synapse to Fabric,Analytics,Pilot,179000,4,Green
+2026-07-05,OPP-0094,R05,Norway,P02,Fabrikam Data,SI,S03,AI-Ready Data Estate,AI,Solutioning,189000,2,Green
+2026-09-03,OPP-0095,R01,UK,P04,Adventure Works Digital,GSI,S04,OneLake Governance,Governance,Solutioning,199000,8,Red
+2026-09-19,OPP-0096,R05,Norway,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Pilot,152000,7,Red
+2026-04-11,OPP-0097,R02,Germany,P02,Fabrikam Data,SI,S03,AI-Ready Data Estate,AI,Solutioning,209000,4,Green
+2026-09-09,OPP-0098,R02,Germany,P01,Contoso Consulting,GSI,S03,AI-Ready Data Estate,AI,Pilot,214000,9,Red
+2026-06-22,OPP-0099,R04,Saudi Arabia,P01,Contoso Consulting,GSI,S04,OneLake Governance,Governance,Won,158000,1,Green
+2026-08-20,OPP-0100,R03,UAE,P03,Northwind Cloud,SI,S04,OneLake Governance,Governance,Solutioning,36000,11,Red
+2026-05-29,OPP-0101,R03,UAE,P01,Contoso Consulting,GSI,S02,Synapse to Fabric,Analytics,Qualified,49000,5,Green
+2026-08-22,OPP-0102,R04,Saudi Arabia,P04,Adventure Works Digital,GSI,S01,SQL Modernization,Database,Qualified,119000,3,Red
+2026-08-22,OPP-0103,R02,Germany,P05,Tailspin Analytics,Boutique,S01,SQL Modernization,Database,Pilot,143000,1,Green
+2026-01-14,OPP-0104,R02,Germany,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Pilot,80000,1,Green
+2026-03-02,OPP-0105,R04,Saudi Arabia,P01,Contoso Consulting,GSI,S01,SQL Modernization,Database,Pilot,73000,5,Amber
+2026-09-20,OPP-0106,R02,Germany,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Solutioning,137000,2,Green
+2026-09-12,OPP-0107,R05,Norway,P01,Contoso Consulting,GSI,S03,AI-Ready Data Estate,AI,Won,15000,10,Green
+2026-07-13,OPP-0108,R02,Germany,P03,Northwind Cloud,SI,S03,AI-Ready Data Estate,AI,Won,29000,3,Green
+2026-03-06,OPP-0109,R02,Germany,P03,Northwind Cloud,SI,S01,SQL Modernization,Database,Won,186000,2,Green
+2026-02-23,OPP-0110,R02,Germany,P02,Fabrikam Data,SI,S03,AI-Ready Data Estate,AI,Qualified,71000,5,Green
+2026-09-10,OPP-0111,R05,Norway,P02,Fabrikam Data,SI,S02,Synapse to Fabric,Analytics,Commit,44000,2,Amber
+2026-06-13,OPP-0112,R05,Norway,P04,Adventure Works Digital,GSI,S01,SQL Modernization,Database,Won,189000,11,Green
+2026-06-20,OPP-0113,R03,UAE,P05,Tailspin Analytics,Boutique,S02,Synapse to Fabric,Analytics,Qualified,191000,10,Green
+2026-09-10,OPP-0114,R02,Germany,P01,Contoso Consulting,GSI,S01,SQL Modernization,Database,Pilot,40000,11,Green
+2026-02-12,OPP-0115,R05,Norway,P05,Tailspin Analytics,Boutique,S01,SQL Modernization,Database,Solutioning,94000,7,Green
+2026-04-05,OPP-0116,R04,Saudi Arabia,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Commit,204000,6,Red
+2026-01-29,OPP-0117,R04,Saudi Arabia,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Pilot,107000,8,Green
+2026-08-27,OPP-0118,R05,Norway,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Solutioning,137000,4,Amber
+2026-03-22,OPP-0119,R05,Norway,P03,Northwind Cloud,SI,S04,OneLake Governance,Governance,Solutioning,67000,7,Green
+2026-09-13,OPP-0120,R01,UK,P04,Adventure Works Digital,GSI,S03,AI-Ready Data Estate,AI,Commit,36000,12,Amber
+2026-01-12,OPP-0121,R01,UK,P03,Northwind Cloud,SI,S03,AI-Ready Data Estate,AI,Solutioning,216000,4,Green
+2026-05-03,OPP-0122,R03,UAE,P01,Contoso Consulting,GSI,S01,SQL Modernization,Database,Won,128000,1,Green
+2026-03-16,OPP-0123,R01,UK,P01,Contoso Consulting,GSI,S01,SQL Modernization,Database,Won,48000,4,Green
+2026-08-02,OPP-0124,R03,UAE,P03,Northwind Cloud,SI,S01,SQL Modernization,Database,Qualified,49000,9,Green
+2026-05-10,OPP-0125,R01,UK,P03,Northwind Cloud,SI,S04,OneLake Governance,Governance,Won,169000,2,Green
+2026-08-05,OPP-0126,R05,Norway,P04,Adventure Works Digital,GSI,S04,OneLake Governance,Governance,Won,132000,12,Green
+2026-03-24,OPP-0127,R04,Saudi Arabia,P02,Fabrikam Data,SI,S04,OneLake Governance,Governance,Solutioning,32000,9,Green
+2026-08-05,OPP-0128,R04,Saudi Arabia,P02,Fabrikam Data,SI,S03,AI-Ready Data Estate,AI,Pilot,195000,12,Green
+2026-08-23,OPP-0129,R02,Germany,P04,Adventure Works Digital,GSI,S03,AI-Ready Data Estate,AI,Qualified,183000,8,Green
+2026-06-22,OPP-0130,R02,Germany,P01,Contoso Consulting,GSI,S04,OneLake Governance,Governance,Qualified,130000,7,Green
+2026-03-23,OPP-0131,R03,UAE,P02,Fabrikam Data,SI,S04,OneLake Governance,Governance,Pilot,143000,3,Green
+2026-03-11,OPP-0132,R05,Norway,P02,Fabrikam Data,SI,S01,SQL Modernization,Database,Solutioning,16000,8,Red
+2026-05-31,OPP-0133,R04,Saudi Arabia,P05,Tailspin Analytics,Boutique,S03,AI-Ready Data Estate,AI,Won,149000,2,Green
+2026-03-06,OPP-0134,R01,UK,P02,Fabrikam Data,SI,S04,OneLake Governance,Governance,Commit,126000,4,Green
+2026-02-27,OPP-0135,R01,UK,P02,Fabrikam Data,SI,S03,AI-Ready Data Estate,AI,Solutioning,103000,2,Green
+2026-07-19,OPP-0136,R04,Saudi Arabia,P02,Fabrikam Data,SI,S03,AI-Ready Data Estate,AI,Solutioning,134000,2,Green
+2026-07-03,OPP-0137,R01,UK,P02,Fabrikam Data,SI,S04,OneLake Governance,Governance,Solutioning,53000,5,Green
+2026-02-16,OPP-0138,R04,Saudi Arabia,P05,Tailspin Analytics,Boutique,S03,AI-Ready Data Estate,AI,Solutioning,172000,8,Amber
+2026-06-22,OPP-0139,R03,UAE,P03,Northwind Cloud,SI,S04,OneLake Governance,Governance,Qualified,177000,5,Amber
+2026-05-04,OPP-0140,R04,Saudi Arabia,P03,Northwind Cloud,SI,S04,OneLake Governance,Governance,Qualified,178000,10,Green
+2026-03-17,OPP-0141,R04,Saudi Arabia,P02,Fabrikam Data,SI,S01,SQL Modernization,Database,Commit,54000,7,Green
+2026-05-08,OPP-0142,R01,UK,P02,Fabrikam Data,SI,S02,Synapse to Fabric,Analytics,Qualified,135000,4,Red
+2026-01-09,OPP-0143,R04,Saudi Arabia,P03,Northwind Cloud,SI,S02,Synapse to Fabric,Analytics,Won,94000,4,Green
+2026-05-21,OPP-0144,R01,UK,P01,Contoso Consulting,GSI,S02,Synapse to Fabric,Analytics,Commit,116000,11,Red
+2026-02-16,OPP-0145,R02,Germany,P05,Tailspin Analytics,Boutique,S03,AI-Ready Data Estate,AI,Pilot,56000,12,Amber
+2026-02-28,OPP-0146,R04,Saudi Arabia,P05,Tailspin Analytics,Boutique,S03,AI-Ready Data Estate,AI,Won,81000,10,Green
+2026-09-30,OPP-0147,R04,Saudi Arabia,P04,Adventure Works Digital,GSI,S01,SQL Modernization,Database,Won,136000,6,Amber
+2026-09-04,OPP-0148,R02,Germany,P04,Adventure Works Digital,GSI,S04,OneLake Governance,Governance,Qualified,95000,5,Green
+2026-10-03,OPP-0149,R04,Saudi Arabia,P04,Adventure Works Digital,GSI,S04,OneLake Governance,Governance,Pilot,132000,3,Red
+2026-07-14,OPP-0150,R03,UAE,P03,Northwind Cloud,SI,S02,Synapse to Fabric,Analytics,Commit,41000,7,Green
+2026-05-24,OPP-0151,R04,Saudi Arabia,P03,Northwind Cloud,SI,S03,AI-Ready Data Estate,AI,Solutioning,193000,11,Red
+2026-08-28,OPP-0152,R03,UAE,P03,Northwind Cloud,SI,S04,OneLake Governance,Governance,Qualified,123000,3,Amber
+2026-06-01,OPP-0153,R01,UK,P03,Northwind Cloud,SI,S02,Synapse to Fabric,Analytics,Solutioning,57000,8,Green
+2026-07-17,OPP-0154,R02,Germany,P05,Tailspin Analytics,Boutique,S02,Synapse to Fabric,Analytics,Pilot,16000,9,Green
+2026-03-06,OPP-0155,R04,Saudi Arabia,P01,Contoso Consulting,GSI,S04,OneLake Governance,Governance,Pilot,179000,4,Red
+2026-06-27,OPP-0156,R01,UK,P02,Fabrikam Data,SI,S03,AI-Ready Data Estate,AI,Won,44000,12,Amber
+2026-02-03,OPP-0157,R01,UK,P03,Northwind Cloud,SI,S03,AI-Ready Data Estate,AI,Solutioning,76000,6,Green
+2026-06-11,OPP-0158,R04,Saudi Arabia,P05,Tailspin Analytics,Boutique,S04,OneLake Governance,Governance,Won,177000,10,Green
+2026-10-02,OPP-0159,R03,UAE,P01,Contoso Consulting,GSI,S01,SQL Modernization,Database,Solutioning,21000,6,Green
+2026-08-03,OPP-0160,R02,Germany,P05,Tailspin Analytics,Boutique,S04,OneLake Governance,Governance,Solutioning,199000,1,Green
+2026-05-05,OPP-0161,R03,UAE,P01,Contoso Consulting,GSI,S04,OneLake Governance,Governance,Pilot,111000,9,Green
+2026-04-03,OPP-0162,R05,Norway,P03,Northwind Cloud,SI,S03,AI-Ready Data Estate,AI,Solutioning,27000,4,Green
+2026-07-03,OPP-0163,R05,Norway,P03,Northwind Cloud,SI,S01,SQL Modernization,Database,Solutioning,125000,8,Green
+2026-05-05,OPP-0164,R02,Germany,P05,Tailspin Analytics,Boutique,S03,AI-Ready Data Estate,AI,Pilot,98000,6,Green
+2026-02-03,OPP-0165,R04,Saudi Arabia,P04,Adventure Works Digital,GSI,S01,SQL Modernization,Database,Won,216000,2,Green
+2026-07-05,OPP-0166,R05,Norway,P04,Adventure Works Digital,GSI,S01,SQL Modernization,Database,Qualified,117000,1,Red
+2026-06-04,OPP-0167,R05,Norway,P01,Contoso Consulting,GSI,S02,Synapse to Fabric,Analytics,Solutioning,215000,3,Amber
+2026-01-09,OPP-0168,R05,Norway,P04,Adventure Works Digital,GSI,S01,SQL Modernization,Database,Pilot,87000,9,Green
+2026-08-26,OPP-0169,R05,Norway,P04,Adventure Works Digital,GSI,S03,AI-Ready Data Estate,AI,Qualified,166000,2,Green
+2026-06-16,OPP-0170,R04,Saudi Arabia,P03,Northwind Cloud,SI,S02,Synapse to Fabric,Analytics,Solutioning,52000,7,Red
+2026-02-20,OPP-0171,R03,UAE,P01,Contoso Consulting,GSI,S01,SQL Modernization,Database,Won,53000,6,Red
+2026-04-29,OPP-0172,R04,Saudi Arabia,P04,Adventure Works Digital,GSI,S04,OneLake Governance,Governance,Commit,126000,2,Green
+2026-08-07,OPP-0173,R04,Saudi Arabia,P05,Tailspin Analytics,Boutique,S01,SQL Modernization,Database,Commit,120000,1,Green
+2026-06-14,OPP-0174,R05,Norway,P03,Northwind Cloud,SI,S04,OneLake Governance,Governance,Won,99000,8,Green
+2026-03-24,OPP-0175,R03,UAE,P01,Contoso Consulting,GSI,S04,OneLake Governance,Governance,Won,113000,5,Green
+2026-04-15,OPP-0176,R03,UAE,P01,Contoso Consulting,GSI,S03,AI-Ready Data Estate,AI,Won,117000,12,Amber
+2026-09-12,OPP-0177,R04,Saudi Arabia,P05,Tailspin Analytics,Boutique,S04,OneLake Governance,Governance,Won,18000,2,Green
+2026-10-06,OPP-0178,R01,UK,P05,Tailspin Analytics,Boutique,S03,AI-Ready Data Estate,AI,Won,140000,6,Red
+2026-05-01,OPP-0179,R05,Norway,P01,Contoso Consulting,GSI,S01,SQL Modernization,Database,Qualified,33000,5,Amber
+2026-07-05,OPP-0180,R05,Norway,P05,Tailspin Analytics,Boutique,S01,SQL Modernization,Database,Won,53000,10,Amber
+2026-08-09,OPP-0181,R04,Saudi Arabia,P03,Northwind Cloud,SI,S01,SQL Modernization,Database,Solutioning,83000,7,Red
+2026-06-12,OPP-0182,R03,UAE,P02,Fabrikam Data,SI,S04,OneLake Governance,Governance,Qualified,18000,10,Green
+2026-09-26,OPP-0183,R01,UK,P05,Tailspin Analytics,Boutique,S02,Synapse to Fabric,Analytics,Pilot,103000,4,Red
+2026-02-17,OPP-0184,R01,UK,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Pilot,197000,12,Red
+2026-07-05,OPP-0185,R04,Saudi Arabia,P01,Contoso Consulting,GSI,S01,SQL Modernization,Database,Won,58000,6,Amber
+2026-09-13,OPP-0186,R03,UAE,P04,Adventure Works Digital,GSI,S01,SQL Modernization,Database,Pilot,72000,1,Green
+2026-05-26,OPP-0187,R05,Norway,P04,Adventure Works Digital,GSI,S01,SQL Modernization,Database,Solutioning,105000,9,Amber
+2026-08-08,OPP-0188,R05,Norway,P01,Contoso Consulting,GSI,S04,OneLake Governance,Governance,Won,219000,3,Green
+2026-09-01,OPP-0189,R03,UAE,P03,Northwind Cloud,SI,S02,Synapse to Fabric,Analytics,Won,167000,1,Green
+2026-03-06,OPP-0190,R02,Germany,P05,Tailspin Analytics,Boutique,S02,Synapse to Fabric,Analytics,Commit,216000,8,Red
+2026-05-13,OPP-0191,R03,UAE,P05,Tailspin Analytics,Boutique,S03,AI-Ready Data Estate,AI,Qualified,76000,11,Amber
+2026-02-20,OPP-0192,R01,UK,P02,Fabrikam Data,SI,S03,AI-Ready Data Estate,AI,Commit,128000,10,Red
+2026-02-17,OPP-0193,R05,Norway,P03,Northwind Cloud,SI,S01,SQL Modernization,Database,Solutioning,39000,9,Amber
+2026-07-11,OPP-0194,R02,Germany,P01,Contoso Consulting,GSI,S02,Synapse to Fabric,Analytics,Solutioning,46000,8,Amber
+2026-02-14,OPP-0195,R01,UK,P04,Adventure Works Digital,GSI,S03,AI-Ready Data Estate,AI,Pilot,151000,11,Red
+2026-03-02,OPP-0196,R04,Saudi Arabia,P05,Tailspin Analytics,Boutique,S02,Synapse to Fabric,Analytics,Won,115000,1,Green
+2026-02-10,OPP-0197,R04,Saudi Arabia,P03,Northwind Cloud,SI,S01,SQL Modernization,Database,Solutioning,47000,6,Amber
+2026-07-04,OPP-0198,R03,UAE,P02,Fabrikam Data,SI,S01,SQL Modernization,Database,Pilot,53000,2,Green
+2026-03-01,OPP-0199,R03,UAE,P01,Contoso Consulting,GSI,S03,AI-Ready Data Estate,AI,Solutioning,61000,1,Green
+2026-05-18,OPP-0200,R02,Germany,P01,Contoso Consulting,GSI,S03,AI-Ready Data Estate,AI,Qualified,175000,7,Green
+2026-09-10,OPP-0201,R01,UK,P03,Northwind Cloud,SI,S01,SQL Modernization,Database,Solutioning,162000,12,Green
+2026-01-05,OPP-0202,R04,Saudi Arabia,P03,Northwind Cloud,SI,S03,AI-Ready Data Estate,AI,Commit,126000,11,Amber
+2026-06-02,OPP-0203,R04,Saudi Arabia,P02,Fabrikam Data,SI,S04,OneLake Governance,Governance,Solutioning,77000,4,Green
+2026-06-10,OPP-0204,R04,Saudi Arabia,P03,Northwind Cloud,SI,S01,SQL Modernization,Database,Pilot,21000,6,Green
+2026-02-09,OPP-0205,R05,Norway,P02,Fabrikam Data,SI,S02,Synapse to Fabric,Analytics,Commit,83000,8,Green
+2026-06-09,OPP-0206,R05,Norway,P05,Tailspin Analytics,Boutique,S04,OneLake Governance,Governance,Won,180000,1,Green
+2026-06-22,OPP-0207,R02,Germany,P03,Northwind Cloud,SI,S01,SQL Modernization,Database,Solutioning,167000,10,Red
+2026-07-11,OPP-0208,R05,Norway,P03,Northwind Cloud,SI,S04,OneLake Governance,Governance,Won,36000,8,Red
+2026-03-28,OPP-0209,R05,Norway,P02,Fabrikam Data,SI,S03,AI-Ready Data Estate,AI,Pilot,148000,1,Red
+2026-01-24,OPP-0210,R01,UK,P04,Adventure Works Digital,GSI,S03,AI-Ready Data Estate,AI,Won,200000,8,Green
+2026-08-09,OPP-0211,R03,UAE,P02,Fabrikam Data,SI,S01,SQL Modernization,Database,Solutioning,66000,3,Amber
+2026-09-11,OPP-0212,R02,Germany,P05,Tailspin Analytics,Boutique,S01,SQL Modernization,Database,Solutioning,158000,4,Green
+2026-01-13,OPP-0213,R04,Saudi Arabia,P05,Tailspin Analytics,Boutique,S04,OneLake Governance,Governance,Pilot,209000,11,Amber
+2026-07-16,OPP-0214,R02,Germany,P04,Adventure Works Digital,GSI,S04,OneLake Governance,Governance,Pilot,91000,9,Amber
+2026-05-16,OPP-0215,R01,UK,P05,Tailspin Analytics,Boutique,S02,Synapse to Fabric,Analytics,Pilot,73000,10,Red
+2026-05-11,OPP-0216,R04,Saudi Arabia,P01,Contoso Consulting,GSI,S01,SQL Modernization,Database,Qualified,159000,11,Green
+2026-09-14,OPP-0217,R02,Germany,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Qualified,138000,8,Green
+2026-02-04,OPP-0218,R03,UAE,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Solutioning,157000,1,Green
+2026-09-11,OPP-0219,R04,Saudi Arabia,P05,Tailspin Analytics,Boutique,S04,OneLake Governance,Governance,Won,15000,4,Green
+2026-08-08,OPP-0220,R02,Germany,P01,Contoso Consulting,GSI,S02,Synapse to Fabric,Analytics,Pilot,45000,2,Green
+2026-03-04,OPP-0221,R03,UAE,P02,Fabrikam Data,SI,S01,SQL Modernization,Database,Commit,108000,2,Amber
+2026-03-28,OPP-0222,R04,Saudi Arabia,P05,Tailspin Analytics,Boutique,S04,OneLake Governance,Governance,Qualified,206000,4,Green
+2026-08-24,OPP-0223,R02,Germany,P01,Contoso Consulting,GSI,S03,AI-Ready Data Estate,AI,Won,204000,7,Green
+2026-01-11,OPP-0224,R03,UAE,P01,Contoso Consulting,GSI,S02,Synapse to Fabric,Analytics,Qualified,220000,12,Red
+2026-04-14,OPP-0225,R04,Saudi Arabia,P01,Contoso Consulting,GSI,S02,Synapse to Fabric,Analytics,Solutioning,194000,5,Green
+2026-01-09,OPP-0226,R03,UAE,P01,Contoso Consulting,GSI,S04,OneLake Governance,Governance,Solutioning,62000,9,Green
+2026-04-24,OPP-0227,R02,Germany,P03,Northwind Cloud,SI,S02,Synapse to Fabric,Analytics,Pilot,182000,6,Red
+2026-05-12,OPP-0228,R03,UAE,P03,Northwind Cloud,SI,S04,OneLake Governance,Governance,Pilot,39000,7,Green
+2026-05-26,OPP-0229,R02,Germany,P01,Contoso Consulting,GSI,S02,Synapse to Fabric,Analytics,Commit,55000,9,Amber
+2026-08-24,OPP-0230,R04,Saudi Arabia,P03,Northwind Cloud,SI,S03,AI-Ready Data Estate,AI,Commit,118000,1,Red
+2026-01-06,OPP-0231,R03,UAE,P01,Contoso Consulting,GSI,S03,AI-Ready Data Estate,AI,Solutioning,67000,10,Green
+2026-02-21,OPP-0232,R03,UAE,P05,Tailspin Analytics,Boutique,S03,AI-Ready Data Estate,AI,Pilot,126000,7,Amber
+2026-06-12,OPP-0233,R04,Saudi Arabia,P04,Adventure Works Digital,GSI,S03,AI-Ready Data Estate,AI,Won,32000,11,Green
+2026-08-09,OPP-0234,R03,UAE,P04,Adventure Works Digital,GSI,S01,SQL Modernization,Database,Qualified,191000,8,Green
+2026-01-02,OPP-0235,R02,Germany,P04,Adventure Works Digital,GSI,S02,Synapse to Fabric,Analytics,Qualified,126000,10,Green
+2026-03-14,OPP-0236,R03,UAE,P01,Contoso Consulting,GSI,S04,OneLake Governance,Governance,Won,205000,7,Green
+2026-02-02,OPP-0237,R05,Norway,P03,Northwind Cloud,SI,S02,Synapse to Fabric,Analytics,Qualified,79000,5,Green
+2026-06-29,OPP-0238,R04,Saudi Arabia,P04,Adventure Works Digital,GSI,S03,AI-Ready Data Estate,AI,Solutioning,172000,7,Amber
+2026-04-03,OPP-0239,R02,Germany,P03,Northwind Cloud,SI,S04,OneLake Governance,Governance,Solutioning,37000,11,Green
+2026-02-16,OPP-0240,R02,Germany,P05,Tailspin Analytics,Boutique,S03,AI-Ready Data Estate,AI,Solutioning,44000,10,Green
