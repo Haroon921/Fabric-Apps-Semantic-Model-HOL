@@ -93,10 +93,12 @@ Participants will learn how to:
 ## Quick start
 
 1. Download or clone this repository.
-2. Open the [participant lab guide](docs/LAB_GUIDE.md).
-3. Use [the sample workbook](sample-data/partner-opportunity-sample.xlsx) or [the flat CSV](sample-data/fact-opportunities.csv).
-4. Follow the [Copilot prompt sequence](prompts/copilot-prompts.md) while building the app.
-5. Use the included [instructor presentation](Fabric-Apps-Semantic-Model-HOL.pptx) to facilitate the workshop.
+2. Complete the [setup readiness checklist](docs/SETUP_CHECKLIST.md).
+3. Open the [participant lab guide](docs/LAB_GUIDE.md).
+4. Use [the sample workbook](sample-data/partner-opportunity-sample.xlsx) or [the flat CSV](sample-data/fact-opportunities.csv).
+5. Follow the [Copilot prompt sequence](prompts/copilot-prompts.md) while building the app.
+6. Compare your results with the [validation baseline](docs/VALIDATION_BASELINE.md).
+7. Use the [instructor guide](docs/INSTRUCTOR_GUIDE.md) and included presentation to facilitate a workshop.
 
 Replace every value shown in `{BRACES}` with the corresponding value from your Fabric environment.
 
@@ -105,11 +107,31 @@ Replace every value shown in `{BRACES}` with the corresponding value from your F
 | Resource | Purpose |
 |---|---|
 | [`docs/LAB_GUIDE.md`](docs/LAB_GUIDE.md) | Step-by-step participant instructions and validation checkpoints |
+| [`docs/INSTRUCTOR_GUIDE.md`](docs/INSTRUCTOR_GUIDE.md) | Delivery timeline, speaker cues, demonstrations, and facilitator guidance |
+| [`docs/SETUP_CHECKLIST.md`](docs/SETUP_CHECKLIST.md) | Tenant, capacity, access, tooling, and network readiness checks |
+| [`docs/VALIDATION_BASELINE.md`](docs/VALIDATION_BASELINE.md) | Expected KPIs and category totals calculated from the synthetic dataset |
+| [`docs/PARTNER_ACCESS.md`](docs/PARTNER_ACCESS.md) | Private-repository collaborator onboarding and removal guidance |
 | [`Fabric-Apps-Semantic-Model-HOL.pptx`](Fabric-Apps-Semantic-Model-HOL.pptx) | 12-slide instructor deck with speaker notes |
 | [`sample-data/partner-opportunity-sample.xlsx`](sample-data/partner-opportunity-sample.xlsx) | Synthetic star-schema workbook with fact, dimension, and summary sheets |
 | [`sample-data/fact-opportunities.csv`](sample-data/fact-opportunities.csv) | Flat-file alternative for the same scenario |
 | [`prompts/copilot-prompts.md`](prompts/copilot-prompts.md) | Guided GitHub Copilot prompt sequence |
 | [`docs/PRICING.md`](docs/PRICING.md) | Capacity monitoring and commercial guidance |
+
+## Completed-app reference
+
+![Completed Partner Opportunity Command Center reference](docs/visual-semantic-app.png)
+
+Use this visual as the design target for the workshop. A completed solution should include the executive KPI strip, required filters, analytical visuals, opportunity details, and resilient application states described in the [participant guide](docs/LAB_GUIDE.md).
+
+## Repository validation
+
+The repository includes an automated validation workflow for required assets, local Markdown links, SVG structure, sample-data baselines, and common secret patterns.
+
+Run the same validation locally:
+
+```powershell
+.\scripts\validate-lab.ps1
+```
 
 ## Responsible delivery
 

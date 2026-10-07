@@ -47,6 +47,8 @@ Confirm that you have:
 - Build and Read permissions on the semantic model
 - Visual Studio Code and GitHub Copilot, if using the guided prompts
 
+Before an instructor-led workshop, complete the [setup readiness checklist](SETUP_CHECKLIST.md).
+
 > [!IMPORTANT]
 > Never commit tenant IDs, workspace IDs, access tokens, connection strings, or other secrets. Values in `{BRACES}` are placeholders and must be replaced locally.
 
@@ -146,6 +148,8 @@ Create a simple Power BI report page containing:
 4. Slicers for partner, solution, and health.
 
 Record the unfiltered KPI values. You will use these as your application validation baseline.
+
+Compare your results with the published [validation baseline](VALIDATION_BASELINE.md). Do not continue until the row count and unfiltered KPIs match.
 
 ### Checkpoint
 
@@ -254,6 +258,12 @@ Provide a clear experience for:
 
 Do not replace failed queries with mock data or success-shaped fallbacks.
 
+### Completion reference
+
+![Completed Partner Opportunity Command Center reference](visual-semantic-app.png)
+
+Use this visual as the presentation target. Your implementation does not need to reproduce every visual detail, but it must include the required KPIs, filters, analysis, opportunity grid, and resilient states.
+
 ## Part 5 — Validate the solution
 
 ### 5.1 Validate data
@@ -343,3 +353,5 @@ If the lab used temporary resources:
 4. Review capacity usage in the Microsoft Fabric Capacity Metrics app.
 
 For production planning, review the [pricing and capacity guidance](PRICING.md).
+
+For instructor-led delivery, use the [instructor guide](INSTRUCTOR_GUIDE.md). For private repository onboarding, follow the [partner access guide](PARTNER_ACCESS.md).
