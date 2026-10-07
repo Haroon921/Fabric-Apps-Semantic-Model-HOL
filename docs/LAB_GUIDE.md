@@ -10,23 +10,16 @@ In this lab, you will build a Microsoft Fabric data app backed by a governed sem
 
 ## Lab architecture
 
-![Lab architecture](visual-architecture.png)
+![Partner Opportunity Command Center architecture](architecture.svg)
 
-```text
-Synthetic Excel / CSV
-          │
-          ▼
-Fabric Lakehouse or Warehouse
-          │
-          ▼
-Power BI semantic model
-          │
-          ▼
-Fabric semantic-model connector
-          │
-          ▼
-Partner Opportunity Command Center
-```
+The architecture keeps data preparation, business logic, and application interaction in distinct layers:
+
+1. Load the synthetic Excel or CSV dataset into a Fabric Lakehouse or Warehouse.
+2. Model relationships, measures, and KPIs in the governed Power BI semantic model.
+3. Use the Fabric semantic-model connector to execute authenticated queries.
+4. Present trusted results through the Partner Opportunity Command Center.
+
+Fabric identity, workspace permissions, capacity, and operational monitoring apply across the complete solution.
 
 ## What you will build
 

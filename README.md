@@ -42,25 +42,15 @@ By the end of the lab, participants will have an app experience with:
 
 ## Architecture
 
-![Lab architecture](docs/visual-architecture.png)
+![Partner Opportunity Command Center architecture](docs/architecture.svg)
 
-```text
-Synthetic Excel / CSV
-          │
-          ▼
-Fabric Lakehouse or Warehouse
-          │
-          ▼
-Power BI semantic model
-          │
-          ▼
-Fabric semantic-model connector
-          │
-          ▼
-Partner Opportunity Command Center
-```
+The solution separates each responsibility clearly:
 
-Business calculations remain in the semantic model. The app layer is responsible for presentation, interaction, and workflow.
+- **Data foundation:** Synthetic Excel or CSV data is loaded into a Fabric Lakehouse or Warehouse.
+- **Governed semantic layer:** Relationships, DAX measures, and KPI definitions remain centralized in the Power BI semantic model.
+- **Application access:** The Fabric semantic-model connector executes authenticated queries without duplicating business logic in the app.
+- **Experience layer:** The Partner Opportunity Command Center provides interactive analysis, filtering, and workflow.
+- **Cross-cutting governance:** Fabric identity, workspace roles, Build and Read permissions, capacity, and monitoring span the complete solution.
 
 ## Learning outcomes
 

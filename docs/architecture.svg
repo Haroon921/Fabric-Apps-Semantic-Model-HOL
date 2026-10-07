@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Partner Opportunity Command Center architecture</title>
+  <desc id="desc">Sample Excel or CSV data flows through a Fabric Lakehouse or Warehouse into a governed Power BI semantic model, then through a semantic-model connector into a Fabric data app. Fabric identity, permissions, capacity, and monitoring span the solution.</desc>
+  <defs>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1F3A"/>
+      <stop offset="0.55" stop-color="#173A68"/>
+      <stop offset="1" stop-color="#4C1D95"/>
+    </linearGradient>
+    <linearGradient id="fabric" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F6CBD"/>
+      <stop offset="1" stop-color="#5B5FC7"/>
+    </linearGradient>
+    <linearGradient id="app" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5B2B9B"/>
+      <stop offset="1" stop-color="#A426A5"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#102A43" flood-opacity="0.14"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M1 1L11 6L1 11Z" fill="#5B5FC7"/>
+    </marker>
+    <style>
+      .font { font-family: "Segoe UI", Arial, sans-serif; }
+      .eyebrow { font-size: 18px; font-weight: 600; letter-spacing: 2.4px; }
+      .title { font-size: 44px; font-weight: 700; }
+      .subtitle { font-size: 21px; }
+      .section { font-size: 17px; font-weight: 700; letter-spacing: 1.4px; }
+      .cardTitle { font-size: 26px; font-weight: 700; fill: #102A43; }
+      .cardText { font-size: 18px; fill: #486581; }
+      .pill { font-size: 15px; font-weight: 600; }
+      .arrowLabel { font-size: 15px; font-weight: 600; fill: #5B5FC7; }
+      .footerTitle { font-size: 19px; font-weight: 700; fill: #102A43; }
+      .footerText { font-size: 16px; fill: #486581; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="#F5F7FB"/>
+  <rect width="1600" height="208" fill="url(#header)"/>
+  <circle cx="1430" cy="8" r="240" fill="#36C5F0" opacity="0.08"/>
+  <circle cx="1520" cy="120" r="190" fill="#D946EF" opacity="0.08"/>
+
+  <g class="font">
+    <text x="100" y="62" class="eyebrow" fill="#7DD3FC">MICROSOFT FABRIC HANDS-ON LAB</text>
+    <text x="100" y="123" class="title" fill="#FFFFFF">Partner Opportunity Command Center</text>
+    <text x="100" y="166" class="subtitle" fill="#D9E8FA">Governed analytics transformed into a secure, interactive application experience</text>
+
+    <g transform="translate(1326 62)">
+      <rect width="174" height="76" rx="18" fill="#FFFFFF" opacity="0.1"/>
+      <path d="M24 45c14-30 34-34 55-20-5 2-10 7-14 14-11-6-20-4-27 11z" fill="#48D7C8"/>
+      <path d="M40 54c14-29 35-34 56-20-6 3-11 8-15 15-10-6-20-4-27 11z" fill="#70E0D2" opacity="0.8"/>
+      <text x="130" y="46" text-anchor="middle" font-size="19" font-weight="700" fill="#FFFFFF">FABRIC</text>
+    </g>
+
+    <text x="100" y="260" class="section" fill="#486581">END-TO-END DATA AND APPLICATION FLOW</text>
+
+    <g transform="translate(100 300)" filter="url(#shadow)">
+      <rect width="290" height="340" rx="24" fill="#FFFFFF"/>
+      <rect width="290" height="8" rx="4" fill="#107C10"/>
+      <circle cx="58" cy="68" r="30" fill="#E7F6E7"/>
+      <path d="M44 50h23l9 9v27H44z" fill="#107C10" opacity="0.9"/>
+      <path d="M67 50v10h9M50 68h20M50 76h20" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+      <text x="32" y="130" class="cardTitle">Sample data</text>
+      <text x="32" y="168" class="cardText">Partner opportunity</text>
+      <text x="32" y="194" class="cardText">workshop dataset</text>
+      <g transform="translate(32 232)">
+        <rect width="100" height="34" rx="17" fill="#E7F6E7"/>
+        <text x="50" y="22" text-anchor="middle" class="pill" fill="#0B6A0B">Excel</text>
+        <rect x="112" width="92" height="34" rx="17" fill="#E7F6E7"/>
+        <text x="158" y="22" text-anchor="middle" class="pill" fill="#0B6A0B">CSV</text>
+      </g>
+      <text x="32" y="307" class="cardText" font-size="16">Synthetic • Portable • Safe</text>
+    </g>
+
+    <g transform="translate(470 300)" filter="url(#shadow)">
+      <rect width="290" height="340" rx="24" fill="#FFFFFF"/>
+      <rect width="290" height="8" rx="4" fill="#0F6CBD"/>
+      <circle cx="58" cy="68" r="30" fill="#E5F1FB"/>
+      <ellipse cx="58" cy="54" rx="17" ry="8" fill="#0F6CBD"/>
+      <path d="M41 54v27c0 5 8 9 17 9s17-4 17-9V54" fill="#0F6CBD" opacity="0.85"/>
+      <ellipse cx="58" cy="68" rx="17" ry="8" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.9"/>
+      <text x="32" y="130" class="cardTitle">Fabric data store</text>
+      <text x="32" y="168" class="cardText">Load and shape data</text>
+      <text x="32" y="194" class="cardText">inside the workspace</text>
+      <g transform="translate(32 232)">
+        <rect width="116" height="34" rx="17" fill="#E5F1FB"/>
+        <text x="58" y="22" text-anchor="middle" class="pill" fill="#0F548C">Lakehouse</text>
+        <rect x="128" width="126" height="34" rx="17" fill="#E5F1FB"/>
+        <text x="191" y="22" text-anchor="middle" class="pill" fill="#0F548C">Warehouse</text>
+      </g>
+      <text x="32" y="307" class="cardText" font-size="16">Managed • Scalable • OneLake</text>
+    </g>
+
+    <g transform="translate(840 280)" filter="url(#shadow)">
+      <rect width="310" height="380" rx="24" fill="#FFFFFF" stroke="#5B5FC7" stroke-width="3"/>
+      <rect width="310" height="10" rx="5" fill="url(#fabric)"/>
+      <circle cx="62" cy="72" r="32" fill="#EEEDFE"/>
+      <path d="M62 45l23 14v27L62 99 39 86V59z" fill="#5B5FC7"/>
+      <path d="M39 59l23 14 23-14M62 73v26" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.9"/>
+      <text x="34" y="140" class="cardTitle">Semantic model</text>
+      <text x="34" y="178" class="cardText">Trusted business layer</text>
+      <text x="34" y="204" class="cardText">for every app query</text>
+      <g transform="translate(34 240)">
+        <rect width="108" height="34" rx="17" fill="#EEEDFE"/>
+        <text x="54" y="22" text-anchor="middle" class="pill" fill="#4F52B2">Star schema</text>
+        <rect x="120" width="70" height="34" rx="17" fill="#EEEDFE"/>
+        <text x="155" y="22" text-anchor="middle" class="pill" fill="#4F52B2">DAX</text>
+        <rect x="202" width="74" height="34" rx="17" fill="#EEEDFE"/>
+        <text x="239" y="22" text-anchor="middle" class="pill" fill="#4F52B2">KPIs</text>
+      </g>
+      <rect x="34" y="302" width="242" height="48" rx="12" fill="#F4F3FF"/>
+      <path d="M52 325l7 7 14-17" fill="none" stroke="#5B5FC7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="84" y="331" class="pill" fill="#4F52B2">Single source of truth</text>
+    </g>
+
+    <g transform="translate(1230 300)" filter="url(#shadow)">
+      <rect width="270" height="340" rx="24" fill="#FFFFFF"/>
+      <rect width="270" height="8" rx="4" fill="url(#app)"/>
+      <circle cx="58" cy="68" r="30" fill="#F8E9F8"/>
+      <rect x="42" y="52" width="14" height="14" rx="3" fill="#A426A5"/>
+      <rect x="61" y="52" width="14" height="14" rx="3" fill="#A426A5" opacity="0.75"/>
+      <rect x="42" y="71" width="14" height="14" rx="3" fill="#A426A5" opacity="0.75"/>
+      <rect x="61" y="71" width="14" height="14" rx="3" fill="#A426A5"/>
+      <text x="32" y="130" class="cardTitle">Fabric data app</text>
+      <text x="32" y="168" class="cardText">Partner Opportunity</text>
+      <text x="32" y="194" class="cardText">Command Center</text>
+      <g transform="translate(32 232)">
+        <rect width="56" height="34" rx="17" fill="#F8E9F8"/>
+        <text x="28" y="22" text-anchor="middle" class="pill" fill="#8E1A8E">KPIs</text>
+        <rect x="68" width="68" height="34" rx="17" fill="#F8E9F8"/>
+        <text x="102" y="22" text-anchor="middle" class="pill" fill="#8E1A8E">Filters</text>
+        <rect x="148" width="86" height="34" rx="17" fill="#F8E9F8"/>
+        <text x="191" y="22" text-anchor="middle" class="pill" fill="#8E1A8E">Actions</text>
+      </g>
+      <text x="32" y="307" class="cardText" font-size="16">Interactive • Responsive</text>
+    </g>
+
+    <line x1="396" y1="470" x2="454" y2="470" stroke="#5B5FC7" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="425" y="448" text-anchor="middle" class="arrowLabel">INGEST</text>
+    <line x1="766" y1="470" x2="824" y2="470" stroke="#5B5FC7" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="795" y="448" text-anchor="middle" class="arrowLabel">MODEL</text>
+    <line x1="1156" y1="470" x2="1214" y2="470" stroke="#5B5FC7" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="1185" y="425" text-anchor="middle" class="arrowLabel">EXECUTE</text>
+    <text x="1185" y="444" text-anchor="middle" class="arrowLabel">QUERY</text>
+
+    <g transform="translate(100 710)">
+      <rect width="1400" height="120" rx="22" fill="#FFFFFF" stroke="#D9E2EC"/>
+      <g transform="translate(36 27)">
+        <path d="M30 0l25 10v20c0 20-13 31-25 37C18 61 5 50 5 30V10z" fill="#E5F1FB"/>
+        <path d="M20 31l7 7 14-17" fill="none" stroke="#0F6CBD" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="76" y="25" class="footerTitle">Identity &amp; access</text>
+        <text x="76" y="51" class="footerText">Fabric authentication • Workspace roles • Build + Read permissions</text>
+      </g>
+      <line x1="715" y1="24" x2="715" y2="96" stroke="#D9E2EC"/>
+      <g transform="translate(755 27)">
+        <circle cx="30" cy="32" r="28" fill="#F3E8FF"/>
+        <path d="M16 39h7V28h7v11h7V20h7v19" fill="none" stroke="#7E22CE" stroke-width="5" stroke-linecap="round"/>
+        <text x="76" y="25" class="footerTitle">Capacity &amp; observability</text>
+        <text x="76" y="51" class="footerText">Fabric capacity • Capacity Metrics app • Operational validation</text>
+      </g>
+    </g>
+
+    <rect x="466" y="672" width="668" height="34" rx="17" fill="#E9EAFB"/>
+    <text x="800" y="695" text-anchor="middle" class="pill" fill="#45489A">Business calculations stay governed in the semantic model</text>
+  </g>
+</svg>
