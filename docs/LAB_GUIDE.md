@@ -2,9 +2,11 @@
 
 In this lab, you will build a Microsoft Fabric data app backed by a governed semantic model. The finished experience gives partner teams a clear view of opportunity value, pipeline stage, region, solution area, and delivery health.
 
-**Estimated duration:** 90 minutes  
-**Difficulty:** Intermediate  
-**Lab format:** Instructor-led or self-paced
+| | |
+|---|---|
+| **Estimated duration** | 90 minutes |
+| **Difficulty** | Intermediate |
+| **Lab format** | Instructor-led or self-paced |
 
 ## Lab architecture
 
