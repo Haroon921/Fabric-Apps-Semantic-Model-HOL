@@ -16,6 +16,11 @@ Build a governed, interactive Microsoft Fabric data app on top of a semantic mod
 
 ![Partner workshop overview](docs/visual-workshop.png)
 
+## Preview Notice
+
+> [!IMPORTANT]
+> This sample demonstrates Microsoft Fabric Apps capabilities that are currently in preview. Preview features may change before general availability and may have additional limitations. This repository is provided as sample and learning material and is not a supported Microsoft product.
+
 ## Why this lab
 
 This partner-ready workshop shows how to turn trusted business data into an application experience without moving business logic out of the governed semantic layer. Participants build a **Partner Opportunity Command Center** for exploring annual contract revenue (ACR), pipeline stages, regions, solution areas, partner performance, and delivery health.
